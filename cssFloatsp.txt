@@ -1,0 +1,82 @@
+CSS Floats and Positioning!
+	Floating Elem
+		CSS float allows an elem. to break free from the normal document flow and shift to the left or right as far as possible.
+Here is a template:
+
+	<!DOCTYPE html>
+<html>
+<head>
+<title>Floats Example</title>
+    <style>
+        #container {
+            margin: 50px auto;
+            width: 500px;
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        #box1 {
+            background-color: #77AF00; /* greenish */
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        #box2 {
+            background-color: #1969B2; /* blueish */
+            height: 150px;
+            width: 150px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <p>
+            A week ago, this is what I had to say: Right now is an adequate time to gently remind others that when reading or extracting information from some place online, you should always be aware and conscious of your potential source.
+
+Why is it important right now? Right now many people are taking advantage of the lazy and incompetent use of online reading. It seems as though there is an agenda to sabotage truth. This social responsibility is uniquely important if you are instantly sharing it for others to read.
+
+You know what? It isn't only now that is an opportune moment to carefully consider this, but one should always have this in mind. Sure. There are agencies out there that are in a social position of credibility and to an extent that is okay. That should not strip all considerable skepticism, though. From these places (CDC / WHO), we acquire critical information which dictates a lot of the things that unfold in government and society in general.
+Especially during a ‘supposed’ pandemic. We should not be hasty but alert. Be careful.
+        </p>
+    </div>
+</body>
+</html>
+
+	Positioning Elements
+		The default would be called STATIC. Other properties would be: top, left, bottom, and right.
+Relative positioning: "position:relative" 
+	with the above piece, one enables the top/left/bottom/right properties.
+Example:
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Relative Positioning</title>
+    <style>
+        #container {
+            margin: 50px auto;
+            width: 500px;
+            height: 200px;
+            border: 1px solid #000;
+        }
+        .box {
+            background-color: #1969B2;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
+
+	Absolute Positioning:
+		
