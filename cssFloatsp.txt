@@ -79,6 +79,7 @@ Example:
 </html>
 
 	Absolute Positioning:
+<<<<<<< HEAD
 		Another type of positioning is absolute positioning.
 	Now, the relative properties work differently. 
 Here is an example.
@@ -113,4 +114,6 @@ Here is an example.
 
 In this document, I should continue to attempt the exercises for floating elements: reproducing twitter's profile page...
 
+=======
+>>>>>>> e07d772fb4655f46e1f12635e5223420394a3bdb
 		
