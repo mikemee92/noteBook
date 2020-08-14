@@ -113,4 +113,6 @@ Here is an example.
 </html>
 
 In this document, I should continue to attempt the exercises for floating elements: reproducing twitter's profile page.
-		
+	
+	And if I add something from the web browser can I update the one in my imac?
+	
